@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Play, X, Sparkles, Zap, Shield, Clock, Mail } from 'lucide-react';
+import { Play, X, Sparkles, Zap, Shield, Clock } from 'lucide-react';
 
 const KioskPromo = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
@@ -139,7 +139,6 @@ const KioskPromo = () => {
                   whileTap={{ scale: 0.95 }}
                   className="flex items-center gap-2 px-8 py-4 bg-white/10 backdrop-blur-sm border-2 border-white text-white rounded-full font-semibold text-lg hover:bg-white/20 transition-all"
                 >
-                  <Mail className="w-5 h-5" />
                   Bilgi Al
                 </motion.a>
               </motion.div>
