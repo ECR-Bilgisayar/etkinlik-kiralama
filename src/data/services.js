@@ -1,5 +1,36 @@
 export const services = [
   {
+    id: 0,
+    slug: 'kiosk',
+    title: 'Akıllı Kayıt & Karşılama Kiosku',
+    description: 'İlk izlenimi teknolojiyle güçlendirin. Ziyaretçi karşılamada hız, düzen ve profesyonellik artık tek bir noktada birleşiyor.',
+    fullDescription: 'Akıllı Kayıt & Karşılama Kiosku, misafirlerinizi saniyeler içinde kayıt altına alır, kişiye özel kartlarını anında teslim eder ve giriş süreçlerini tamamen otomatik hale getirir. Modern tasarımı ve dokunmatik ekranı sayesinde kullanıcılar hiçbir yardıma ihtiyaç duymadan işlemlerini tamamlar. Yoğun giriş saatlerinde bile akışı kesintisiz hale getirir, personel yükünü azaltır ve işletmenize kurumsal bir prestij kazandırır. Etkinlik alanlarından ofislere, kurumsal binalardan organizasyonlara kadar her ortamda fark yaratır.',
+    image: '/kiosk-mockup.png',
+    isPremium: true,
+    useCases: [
+      {
+        title: 'Kurumsal Ofisler',
+        description: 'Ziyaretçi girişlerini saniyelere indirir, manuel kayıt ve karışıklıkları ortadan kaldırır. Profesyonel, modern ve güven veren bir görünüm sağlar.'
+      },
+      {
+        title: 'Etkinlik & Organizasyon Alanları',
+        description: 'Yoğun giriş saatlerinde bile akışı kesintisiz hale getirir. Kart basımı ve teslimini otomatikleştirir.'
+      },
+      {
+        title: 'Fuarlar',
+        description: 'Daha az personel ile daha yüksek verimlilik sağlar. Ziyaretçi deneyimini üst seviyeye taşır.'
+      },
+      {
+        title: 'Özel Davetler ve Lansmanlar',
+        description: 'VIP misafirlerinize premium bir karşılama deneyimi sunun. Kurumsal kimliğinizi güçlendirin.'
+      },
+      {
+        title: 'Kontrollü Giriş Gerektiren Tüm Alanlar',
+        description: 'Güvenlik ve kontrol gerektiren her mekanda profesyonel bir çözüm sunar.'
+      }
+    ]
+  },
+  {
     id: 1,
     slug: '360-booth',
     title: '360 Booth',
