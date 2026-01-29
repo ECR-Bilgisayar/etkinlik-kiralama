@@ -6,6 +6,7 @@ import { Sparkles, Zap, Users, ArrowRight } from 'lucide-react';
 import ServiceCard from '@/components/ServiceCard';
 import BlogCard from '@/components/BlogCard';
 import ReferencesCarousel from '@/components/ReferencesCarousel';
+import KioskPromo from '@/components/KioskPromo';
 import { services } from '@/data/services';
 import { blogs } from '@/data/blogs';
 
@@ -84,6 +85,9 @@ const HomePage = () => {
           </motion.div>
         </div>
       </section>
+
+      {/* Kiosk Promo Section */}
+      <KioskPromo />
 
       {/* Featured Services */}
       <section className="py-20 bg-gray-50 dark:bg-gray-900">

@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Menu, X, Sun, Moon } from 'lucide-react';
+import { Menu, X, Sun, Moon, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useTheme } from '@/context/ThemeContext';
+
+import Logo from './Logo';
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -22,9 +24,9 @@ const Navbar = () => {
   const navLinks = [
     { name: 'Anasayfa', path: '/' },
     { name: 'Hizmetlerimiz', path: '/hizmetler' },
-    { name: 'Hakkımızda', path: '/hakkimizda' },
     { name: 'Referanslar', path: '/referanslarimiz' },
-    { name: 'Blog', path: '/blog' }
+    { name: 'Blog', path: '/blog' },
+    { name: 'Hakkımızda', path: '/hakkimizda' }
   ];
 
   return (
@@ -45,16 +47,7 @@ const Navbar = () => {
               whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.2 }}
             >
-              <img
-                src="/logo-dark.svg"
-                alt="Etkinlik Kiralama"
-                className="h-10 md:h-12 w-auto object-contain dark:hidden"
-              />
-              <img
-                src="/logo-light.svg"
-                alt="Etkinlik Kiralama"
-                className="h-10 md:h-12 w-auto object-contain hidden dark:block"
-              />
+              <Logo />
             </motion.div>
 
             {/* Mobile: Logo Icon */}
@@ -63,11 +56,7 @@ const Navbar = () => {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.2 }}
             >
-              <img
-                src="/logo-icon.svg"
-                alt="Etkinlik Kiralama"
-                className="h-9 w-auto object-contain"
-              />
+              <Logo iconOnly={true} />
             </motion.div>
           </Link>
 
@@ -127,7 +116,8 @@ const Navbar = () => {
               >
                 <Button className="relative overflow-hidden bg-gradient-to-r from-purple-500 via-purple-600 to-blue-500 hover:from-purple-600 hover:via-purple-700 hover:to-blue-600 text-white font-semibold px-6 py-2.5 shadow-lg shadow-purple-500/30 border border-white/20">
                   <span className="relative z-10 flex items-center gap-2">
-                    İletişime Geç
+                    <Mail className="w-4 h-4" />
+                    İletişim
                   </span>
                   <div className="absolute inset-0 translate-x-[-100%] hover:translate-x-[100%] transition-transform duration-700 bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-12" />
                 </Button>
@@ -192,8 +182,9 @@ const Navbar = () => {
                 </button>
 
                 <Link to="/iletisim" onClick={() => setIsMobileMenuOpen(false)} className="block">
-                  <Button className="w-full bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-semibold">
-                    İletişime Geç
+                  <Button className="w-full bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600 text-white font-semibold flex items-center justify-center gap-2">
+                    <Mail className="w-4 h-4" />
+                    İletişim
                   </Button>
                 </Link>
               </div>

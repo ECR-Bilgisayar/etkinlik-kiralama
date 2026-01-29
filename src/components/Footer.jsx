@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram } from 'lucide-react';
 
+import Logo from './Logo';
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -13,16 +15,7 @@ const Footer = () => {
           {/* Logo & About */}
           <div>
             <Link to="/" className="flex items-center mb-4 group">
-              <img
-                src="/logo-dark.svg"
-                alt="Etkinlik Kiralama"
-                className="h-10 md:h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300 dark:hidden"
-              />
-              <img
-                src="/logo-light.svg"
-                alt="Etkinlik Kiralama"
-                className="h-10 md:h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300 hidden dark:block"
-              />
+              <Logo />
             </Link>
             <p className="text-gray-600 dark:text-gray-400 text-sm mb-4">
               Türkiye'nin önde gelen teknolojik etkinlik kiralama platformu. Kurumsal etkinlikler, fuarlar ve özel organizasyonlar için profesyonel çözümler.
