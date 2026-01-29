@@ -49,7 +49,7 @@ const HomePage = () => {
           />
           <div className="absolute inset-0 bg-gradient-to-br from-purple-900/90 via-cyan-900/80 to-black/90" />
         </div>
-        
+
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -100,7 +100,7 @@ const HomePage = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 font-display">
-              Popüler Hizmetlerimiz
+              Hizmetlerimiz
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300">
               En çok tercih edilen etkinlik hizmetlerimiz
