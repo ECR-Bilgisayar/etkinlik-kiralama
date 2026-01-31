@@ -21,8 +21,19 @@ const AboutPage = () => {
   return (
     <>
       <Helmet>
-        <title>Hakkımızda - Etkinlik Kiralama</title>
-        <meta name="description" content="Etkinlik teknolojileri konusunda uzman ekibimiz ve hizmetlerimiz hakkında bilgi edinin." />
+        <title>Hakkımızda | ECR Etkinlik Kiralama ve Teknoloji Çözümleri</title>
+        <meta name="description" content="2014'ten beri etkinlik ve kurumsal teknoloji kiralama sektöründe lider. Deneyimli ekibimiz ve geniş ürün yelpazemizle organizasyonlarınıza güç katıyoruz." />
+        <meta name="keywords" content="hakkımızda, ecr etkinlik, etkinlik teknolojileri, kiralama şirketi, kurumsal tedarikçi, teknoloji kiralama geçmişi" />
+
+        {/* Open Graph */}
+        <meta property="og:url" content="https://etkinlikbilgisayar.com/hakkimizda" />
+        <meta property="og:title" content="Hakkımızda | ECR Etkinlik Kiralama" />
+        <meta property="og:description" content="Profesyonel ekip, son teknoloji ekipmanlar ve kusursuz hizmet anlayışı ile etkinliklerinizin çözüm ortağıyız." />
+        <meta property="og:image" content="https://etkinlikbilgisayar.com/meta-beyaz.png" />
+
+        {/* Twitter */}
+        <meta property="twitter:title" content="Hakkımızda | ECR Etkinlik Kiralama" />
+        <meta property="twitter:description" content="Profesyonel ekip, son teknoloji ekipmanlar ve kusursuz hizmet anlayışı ile etkinliklerinizin çözüm ortağıyız." />
       </Helmet>
 
       <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100 dark:from-[#0a0e27] dark:via-black dark:to-[#0a0e27]">

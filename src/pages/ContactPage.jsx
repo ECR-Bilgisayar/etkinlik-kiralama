@@ -47,8 +47,19 @@ const ContactPage = () => {
   return (
     <>
       <Helmet>
-        <title>İletişim - Etkinlik Kiralama</title>
-        <meta name="description" content="Kurumsal etkinlik hizmetleri için bize doğrudan ulaşabilirsiniz. Uzman ekibimiz size en uygun çözümü sunmak için hazır." />
+        <title>İletişim | Etkinlik Kiralama - Hemen Teklif Alın</title>
+        <meta name="description" content="7/24 Teknik destek, WhatsApp hızlı iletişim hattı ve kurumsal teklifler için bize ulaşın. İstanbul İstoç ofisimizde sizleri bekliyoruz." />
+        <meta name="keywords" content="iletişim, teklif al, etkinlik kiralama iletişim, istoç etkinlik bilgisayar, kiralama desteği, whatsapp hattı" />
+
+        {/* Open Graph */}
+        <meta property="og:url" content="https://etkinlikbilgisayar.com/iletisim" />
+        <meta property="og:title" content="İletişim | Etkinlik Kiralama" />
+        <meta property="og:description" content="Projeleriniz için en uygun çözümleri sunmak üzere buradayız. Hemen bize ulaşın." />
+        <meta property="og:image" content="https://etkinlikbilgisayar.com/meta-beyaz.png" />
+
+        {/* Twitter */}
+        <meta property="twitter:title" content="İletişim | Etkinlik Kiralama" />
+        <meta property="twitter:description" content="Projeleriniz için en uygun çözümleri sunmak üzere buradayız. Hemen bize ulaşın." />
       </Helmet>
 
       <div className="min-h-screen bg-gradient-to-b from-gray-50 via-white to-gray-100 dark:from-[#0a0e27] dark:via-black dark:to-[#0a0e27] py-20">

@@ -35,8 +35,23 @@ const HomePage = () => {
   return (
     <div className="min-h-screen bg-white dark:bg-[#0A0E27]">
       <Helmet>
-        <title>Etkinlik Kiralama - Profesyonel Etkinlik Teknolojileri</title>
-        <meta name="description" content="360 Booth, Photobooth, E-Spor, VR Etkinlikleri ve daha fazlası. Etkinliklerinizi unutulmaz kılacak profesyonel teknoloji kiralama hizmetleri." />
+        <title>Etkinlik Kiralama | Profesyonel Teknoloji ve VR Çözümleri</title>
+        <meta name="description" content="360 Booth, Photobooth, E-Spor, VR Etkinlikleri, Led Ekran ve Ses Sistemi kiralama. Etkinliklerinizi unutulmaz kılacak profesyonel teknoloji kiralama hizmetleri ve teknik destek." />
+        <meta name="keywords" content="etkinlik kiralama, vr kiralama, photobooth, 360 booth, e-spor etkinlikleri, ses ışık sistemleri, led ekran kiralama, fuar teknolojileri, kurumsal etkinlik organizasyonu" />
+
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://etkinlikbilgisayar.com/" />
+        <meta property="og:title" content="Etkinlik Kiralama | Profesyonel Teknoloji ve VR Çözümleri" />
+        <meta property="og:description" content="En son teknoloji etkinlik ekipmanları ile organizasyonlarınıza değer katın. VR, Photobooth, 360 Video ve daha fazlası." />
+        <meta property="og:image" content="https://etkinlikbilgisayar.com/meta-beyaz.png" />
+
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://etkinlikbilgisayar.com/" />
+        <meta property="twitter:title" content="Etkinlik Kiralama | Profesyonel Teknoloji ve VR Çözümleri" />
+        <meta property="twitter:description" content="En son teknoloji etkinlik ekipmanları ile organizasyonlarınıza değer katın." />
+        <meta property="twitter:image" content="https://etkinlikbilgisayar.com/meta-beyaz.png" />
       </Helmet>
 
       {/* Hero Section */}
