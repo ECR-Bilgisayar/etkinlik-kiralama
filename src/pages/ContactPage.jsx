@@ -34,7 +34,7 @@ const ContactPage = () => {
       icon: Mail,
       title: 'E-posta Gönderin',
       subtitle: 'Detaylı teklif için',
-      value: 'info@ecr.com.tr',
+      value: 'info@etkinlikkiralama.com',
       linkText: 'Mail Gönder',
       href: 'mailto:info@ecr.com.tr?subject=Etkinlik%20Hizmeti%20Talebi',
       gradient: 'from-cyan-500 to-cyan-600',

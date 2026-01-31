@@ -225,7 +225,7 @@ const HomePage = () => {
                 Hakkımızda
               </h2>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-                Dinamik kadromuz, her türlü etkinlikte müşteri taleplerine hızlıca yanıt verebilmek ve teknolojik altyapıyı sorunsuz bir şekilde sağlamak için sürekli olarak yenilikçi çözümler sunmaktadır.
+                ECR Etkinlik Bilgisayar olarak 2014’ten beri etkinliklere ve kurumlara teknoloji kiralama, kurulum ve saha desteğini tek çatı altında sunuyoruz. Güçlü operasyon kabiliyetimiz ve sahada hazır teknik ekibimizle ihtiyaca en uygun kurguyu hızla devreye alır, etkinliklerin kesintisiz ilerlemesini sağlarız.
               </p>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-8 leading-relaxed">
                 Meta, Honda, Red Bull, Trendyol, Porsche, TRT, Vakıfbank, Netflix, Akbank gibi önde gelen markalarla çalışarak edindiğimiz deneyimle, her projeye özel çözümler üretiyoruz.
